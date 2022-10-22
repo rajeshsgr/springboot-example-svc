@@ -26,7 +26,7 @@ public class HttpServletImageResource {
      * @throws ServletException
      * @throws IOException
      */
-    @GetMapping("/download")
+    @GetMapping("/displayOnBrowser")
     public void download(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse)
             throws ServletException, IOException {
 
