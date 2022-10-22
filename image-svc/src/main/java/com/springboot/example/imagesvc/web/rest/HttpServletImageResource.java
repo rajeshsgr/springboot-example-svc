@@ -14,7 +14,7 @@ import java.io.File;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/images")
+@RequestMapping("/image")
 public class HttpServletImageResource {
     @Resource
     private ImageResourceHttpRequestHandler imageResourceHttpRequestHandler;
